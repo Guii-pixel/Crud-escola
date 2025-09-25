@@ -5,7 +5,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-// Importando rotas
+///Importando rotas
 const alunosRouter = require('./routes/alunos');
 const professoresRouter = require('./routes/professores');
 

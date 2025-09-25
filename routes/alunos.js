@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 
-// Array inicial com 2 alunos de exemplo
+// Array inicial com 2 alunos exemplo
 let alunos = [
   {
     id: 1,
